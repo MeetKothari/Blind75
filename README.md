@@ -1,10 +1,10 @@
 # 'Concepts!'
 
-The hardest part about DSA for me is when to use what. So, hopefully, this process will help me get stronger in that aspect.
+✍️ The hardest part about DSA for me is when to use what. So, hopefully, this process will help me get stronger in that aspect.
 
 ---
 
-(1) The Java 'HashSet':
+⭐ The Java 'HashSet':
  - implemented using `import java.util.HashSet;`
  - instantiated using `HashSet<Object> hash = new HashSet<>();`
  - In Java, a HashSet is a collection that is used to store a set of unique elements. It is implemented using a hash table, which provides constant-time performance for the basic operations, such as adding, removing, and searching for elements.
@@ -20,7 +20,7 @@ Overall, a HashSet provides a convenient way to store a set of unique elements w
 
 ---
 
-(2) DFS Search:
+⭐ DFS Search:
 
 Imagine you're trying to find your way through a maze. You start at one point and you want to get to the end of the maze. How do you do it? One way is to use DFS. Here's how it works:
 
@@ -44,9 +44,9 @@ Imagine you're trying to find your way through a maze. You start at one point an
 
 --- 
 
-Kind of similar LC problems:
+⭐ Kind of similar LC problems:
 
-:point: Valid Anagram and Ransome Note
+👉 Valid Anagram and Ransome Note
 
 - Both the solution for the Ransom Note problem and the Valid Anagram problem use a counting approach to compare the characters in two strings.
 
