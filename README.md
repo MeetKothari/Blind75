@@ -20,7 +20,7 @@ Overall, a HashSet provides a convenient way to store a set of unique elements w
 
 ---
 
-(2)- DFS Search:
+(2) DFS Search:
 
 Imagine you're trying to find your way through a maze. You start at one point and you want to get to the end of the maze. How do you do it? One way is to use DFS. Here's how it works:
 
