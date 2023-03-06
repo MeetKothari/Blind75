@@ -41,3 +41,17 @@ Imagine you're trying to find your way through a maze. You start at one point an
 - DFS can be a bit slow in some cases, but it's a very powerful tool for solving many different types of problems.
 
 - (LC Problems that should sound the alarm bells): Flood Fill
+
+--- 
+
+Kind of similar LC problems:
+
+:point: Valid Anagram and Ransome Note
+
+- Both the solution for the Ransom Note problem and the Valid Anagram problem use a counting approach to compare the characters in two strings.
+
+- In both solutions, we use an array to count the number of times each character appears in the strings. In the Valid Anagram problem, we subtract the ASCII value of 'a' from each character to get an index in the array, while in the Ransom Note problem, we use the character itself as an index in the array.
+
+- After we have counted the characters in each string, we compare the counts in the two arrays to see if they are the same (Valid Anagram problem) or if we have enough of each character in the first string to construct the second string (Ransom Note problem).
+
+- Both problems are solved with a time complexity of O(n), where n is the length of the longer of the two input strings. Additionally, both solutions do not use any sorting or other complex operations, making them simple and efficient.
