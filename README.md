@@ -1,4 +1,4 @@
-# 'When to use what!'
+# 'Concepts!'
 
 The hardest part about DSA for me is when to use what. So, hopefully, this process will help me get stronger in that aspect.
 
@@ -17,3 +17,7 @@ The hardest part about DSA for me is when to use what. So, hopefully, this proce
  - Thread safety: HashSet is not synchronized, so it is not thread-safe. If you need thread-safe access to a set, you can use the Collections.synchronizedSet() method to create a synchronized set.
 
 Overall, a HashSet provides a convenient way to store a set of unique elements with fast performance for basic operations. It is commonly used in many applications, such as for caching, as a lookup table, or for storing unique values in a data structure.
+
+---
+
+(2)- DFS Search:
