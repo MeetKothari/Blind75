@@ -4,6 +4,8 @@
 
 ---
 
+# Data Structures
+
 ⭐ The Java 'HashSet':
  - implemented using `import java.util.HashSet;`
  - instantiated using `HashSet<Object> hash = new HashSet<>();`
@@ -22,7 +24,7 @@ Overall, a HashSet provides a convenient way to store a set of unique elements w
 
 # Algorithms
 
-The Boyer-Moore voting algorithm is a linear time algorithm that is used to find the majority element in an array. The majority element is defined as the element that appears more than n/2 times in an array of size n.
+⭐ The Boyer-Moore voting algorithm is a linear time algorithm that is used to find the majority element in an array. The majority element is defined as the element that appears more than n/2 times in an array of size n.
 
 The algorithm works by maintaining a count of the current candidate for the majority element. It initially sets the candidate to the first element and the count to 0. Then, it iterates through the array, incrementing the count if the current element is equal to the candidate or decrementing the count otherwise. If the count reaches 0, the algorithm sets the current element as the new candidate.
 
