@@ -20,6 +20,35 @@ Overall, a HashSet provides a convenient way to store a set of unique elements w
 
 ---
 
+# Algorithms
+
+The Boyer-Moore voting algorithm is a linear time algorithm that is used to find the majority element in an array. The majority element is defined as the element that appears more than n/2 times in an array of size n.
+
+The algorithm works by maintaining a count of the current candidate for the majority element. It initially sets the candidate to the first element and the count to 0. Then, it iterates through the array, incrementing the count if the current element is equal to the candidate or decrementing the count otherwise. If the count reaches 0, the algorithm sets the current element as the new candidate.
+
+The intuition behind the algorithm is that if an element is the majority element, then it will have a net count of positive occurrences in the array. Therefore, if we maintain a count of the current candidate and cancel out all occurrences of other elements with it, the remaining count will be positive if the candidate is the majority element.
+
+In the code, nums is the input array of integers. The algorithm initializes the candidate and count variables to the first element and 0, respectively. It then iterates through the array, incrementing the count if the current element is equal to the candidate or decrementing the count otherwise. If the count reaches 0, the algorithm sets the current element as the new candidate. Finally, it returns the candidate as the majority element.
+
+The Boyer-Moore voting algorithm has a time complexity of O(n) and a space complexity of O(1), which makes it a very efficient algorithm for finding the majority element in an array.
+
+Here's the pseudocode for the Boyer-Moore voting algorithm:
+
+```
+candidate = nums[0]
+count = 0
+
+for num in nums:
+    if count == 0:
+        candidate = num
+    count += (num == candidate) ? 1 : -1
+
+return candidate
+
+```
+
+---
+
 ⭐ DFS Search:
 
 Imagine you're trying to find your way through a maze. You start at one point and you want to get to the end of the maze. How do you do it? One way is to use DFS. Here's how it works:
