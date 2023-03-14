@@ -1,4 +1,4 @@
-I solved this problem using the Boyer-Moore voting algo.
+I solved this problem using the Boyer-Moore voting algorithm.
 
 The Boyer-Moore voting algorithm is a linear time algorithm that is used to find the majority element in an array. The majority element is defined as the element that appears more than n/2 times in an array of size n.
 
