@@ -55,6 +55,9 @@ return candidate
 
 This algorithm uses optimal substructures (the maximum subarray ending at each position is calculated in a simple way from a related but smaller and overlapping subproblem: the maximum subarray ending at the previous position) this algorithm can be viewed as a simple example of dynamic programming. Kadane’s algorithm is able to find the maximum sum of a contiguous subarray in an array with a runtime of O(n).
 
+Time complexity: O(n), where n is the size of the input array. The algorithm has to loop through the array only once.
+Space complexity: O(1), since the algorithm is using only a constant amount of extra space regardless of the input size.
+
 ```
 
 class Solution {
