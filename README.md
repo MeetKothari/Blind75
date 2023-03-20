@@ -51,6 +51,29 @@ return candidate
 
 ---
 
+⭐ Kadane's Algo
+
+This algorithm uses optimal substructures (the maximum subarray ending at each position is calculated in a simple way from a related but smaller and overlapping subproblem: the maximum subarray ending at the previous position) this algorithm can be viewed as a simple example of dynamic programming. Kadane’s algorithm is able to find the maximum sum of a contiguous subarray in an array with a runtime of O(n).
+
+```
+
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int n = nums.length;
+        int maximumSum = Integer.MIN_VALUE, currSumSubarray = 0;
+        for (int i = 0; i < n; i++) {
+            currSumSubarray += nums[i]; 
+            maximumSum = Math.max(maximumSum, currSumSubarray);
+            currSumSubarray = Math.max(currSumSubarray, 0);
+        } 
+        return maximumSum;
+    }
+}
+
+```
+
+---
+
 ⭐ DFS Search:
 
 Imagine you're trying to find your way through a maze. You start at one point and you want to get to the end of the maze. How do you do it? One way is to use DFS. Here's how it works:
